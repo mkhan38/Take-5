@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Take 5</title>
+        <link href="https://fonts.googleapis.com/css?family=Prompt:400,600&display=swap" rel="stylesheet">
+        <style>
+            * {
+                margin: 0;
+                font-family: 'Prompt', sans-serif;
+            }
+            h2 {
+                width: 200px;
+                padding: 0 5px;
+                text-align: center;
+                font-weight: 200;
+            }
+
+            button {
+                display: block;
+                width: 200px;
+                margin:10px;
+                background-color: #E3E3E3;
+                border-style: none;
+                transition-duration: 0.3s;
+            }
+
+            button:hover {
+                background-color: black;
+                color: #E3E3E3;
+            }
+
+            button:active {
+                background-color: #E3E3E3;
+                color: black;
+            }
+
+            img {
+                padding: 7px;
+
+            }
+
+            .icon {
+                text-align: center;
+                background-color: #E3E3E3;
+                margin-bottom: 7px;
+            }
+            #timer {
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="icon">
+            <img src="icon64.png">
+        </div>
+        <h2>Choose how often you want to take a break:</h2>
+        <button id="20">20 minutes</button>
+        <button id="30">30 minutes</button>
+        <button id="40">40 minutes</button>
+        <div id="timer"></div>
+        <script src="popup.js"></script>
+    </body>
+</html>
+
+
